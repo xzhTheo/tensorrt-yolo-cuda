@@ -4,7 +4,7 @@ YOLO **Detect** inference with **CUDA preprocess** and a **TensorRT** engine.
 
 This repo is a focused extract of [laugh12321/TensorRT-YOLO](https://github.com/laugh12321/TensorRT-YOLO): detect only. No custom plugin, no classify / pose / segment / obb, no Python bindings. NMS uses TensorRT's built-in `EfficientNMS_TRT`.
 
-Local folder name: `D:\tendor\cuda-tensorrt-detect`.
+Repo path: `cuda-tensorrt-detect/` (also usable as `D:\tendor\tensorrt-yolo-cuda\cuda-tensorrt-detect`).
 
 ## Pipeline
 
@@ -62,7 +62,7 @@ Default paths in `build.bat` / `CMakeLists.txt`:
 ## Build
 
 ```bat
-cd D:\tendor\cuda-tensorrt-detect
+cd cuda-tensorrt-detect
 build.bat
 ```
 
